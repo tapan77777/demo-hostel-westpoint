@@ -1,6 +1,6 @@
 
 import { AnimatePresence, motion } from "framer-motion";
-import React, { useState } from "react";
+import { useState } from "react";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
@@ -39,7 +39,7 @@ const [about,setabout] = useState(false)
     playsInline
     className="absolute w-full h-full object-cover z-0"
   >
-    <source src="images\Habit Tracker - Google Chrome 2023-08-16 10-45-01.mp4" type="video/mp4" />
+    <source src="images/train.mp4" type="video/mp4" />
   </video>
 
   <div className="relative z-10 bg-black/40 w-full h-full flex flex-col justify-center items-start px-6 md:px-16">

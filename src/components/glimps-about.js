@@ -1,5 +1,4 @@
 // AboutUsGlimpse.jsx
-import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick-theme.css";
@@ -11,11 +10,11 @@ const AboutUsGlimpse = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 1500,
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 5000,
     arrows: false,
     responsive: [
       {
@@ -26,10 +25,10 @@ const AboutUsGlimpse = () => {
   };
 
   const images = [
-    "/images/about1.jpg",
-    "/images/about2.jpg",
-    "/images/about3.jpg",
-    "/images/about4.jpg"
+    "/images/west-point-1.jpg",
+    "/images/westpoint-2.jpg",
+    "/images/westpoint-5.jpg",
+    "/images/westpoint-13.jpg"
   ];
 
   return (

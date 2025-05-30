@@ -1,26 +1,25 @@
 import { motion } from "framer-motion";
-import React from "react";
 import { Link } from "react-router-dom";
 
 const exploreItems = [
   {
     title: "Hidden Trails",
-    image: "/images/explore/trails.jpg",
+    image: "/images/hiden-route.jpg",
     description: "Discover secret spots with breathtaking views.",
   },
   {
     title: "Cafes & Culture",
-    image: "/images/explore/cafe.jpg",
+    image: "/images/cafes.jpg",
     description: "Experience Darjeeling’s cafe charm & local life.",
   },
   {
     title: "Batasia Loop",
-    image: "/images/explore/batasia.jpg",
+    image: "/images/batasia.jpg",
     description: "Feel the rhythm of the heritage toy train.",
   },
   {
     title: "Monasteries",
-    image: "/images/explore/monastery.jpg",
+    image: "/images/monastry.jpg",
     description: "Peaceful moments in ancient spiritual havens.",
   },
 ];

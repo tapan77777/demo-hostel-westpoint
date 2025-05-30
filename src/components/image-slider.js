@@ -1,10 +1,13 @@
 import { AnimatePresence, motion } from "framer-motion";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 const images = [
-  "images/WhatsApp Image 2025-01-03 at 10.39.02 PM.jpeg",
-  "images/partners/WhatsApp Image 2025-01-03 at 10.45.56 PM.jpeg",
-  "/images/slider/slide3.jpg",
+  "images/darj-scene1.jpg",
+  "images/darj-train2.jpg",
+  "/images/darj-scene2.jpg",
+  "/images/darj-train1.jpg",
+  "/images/darj-scene3.jpg",
+  "/images/darj-train3.jpg",
 ];
 
 export default function ImageSlider() {

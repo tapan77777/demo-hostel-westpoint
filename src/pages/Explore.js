@@ -102,12 +102,12 @@ function ExploreUs() {
         <h2 className="text-3xl font-bold text-[#FF5E5B] mb-6 text-center">Glimpses of Darjeeling</h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
           {[
-            "/assets/gallery1.jpg",
-            "/assets/gallery2.jpg",
-            "/assets/gallery3.jpg",
-            "/assets/gallery4.jpg",
-            "/assets/gallery5.jpg",
-            "/assets/gallery6.jpg",
+            "images/darj-scene1.jpg",
+            "images/batasia.jpg",
+            "/images/monastry.jpg",
+            "/images/cafes.jpg",
+            "/images/hiden-route.jpg",
+            "/images/darj-train2.jpg",
           ].map((src, i) => (
             <img
               key={i}

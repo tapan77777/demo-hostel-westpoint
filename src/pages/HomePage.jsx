@@ -8,12 +8,12 @@ import ImageSlider from "../components/image-slider";
 export default function HomePage() {
 
   const images = [
-    "/images/gallery1.jpg",
-    "/images/gallery2.jpg",
-    "/images/gallery3.jpg",
-    "/images/gallery4.jpg",
-    "/images/gallery5.jpg",
-    "/images/gallery6.jpg",
+    "/images/westpoint-3.jpg",
+    "/images/westpoint-9.jpg",
+    "/images/westpoint-11.jpg",
+    "/images/westpoint-10.jpg",
+    "/images/westpoint-6.jpg",
+    "/images/westpoint-4.jpg",
   ];
   return (
     <div className="bg-white text-gray-800 min-h-screen">

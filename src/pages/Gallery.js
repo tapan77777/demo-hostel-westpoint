@@ -4,32 +4,32 @@ import Navbar from "../components/Navbar";
 
 const images = [
   {
-    src: "/gallery/photo1.jpg",
+    src: "/images/hiden-route.jpg",
     alt: "Sunrise over Tiger Hill",
     caption: "Sunrise from Tiger Hill - breathtaking view!",
   },
   {
-    src: "/gallery/photo2.jpg",
+    src: "/images/batasia.jpg",
     alt: "Batasia Loop",
     caption: "Scenic walk through Batasia Loop",
   },
   {
-    src: "/gallery/photo3.jpg",
+    src: "/images/darj-train1.jpg",
     alt: "Local Tea Tasting",
     caption: "Enjoying the local Darjeeling tea",
   },
   {
-    src: "/gallery/photo4.jpg",
+    src: "/images/monastry.jpg",
     alt: "Peace Pagoda",
     caption: "Visit the serene Peace Pagoda",
   },
   {
-    src: "/gallery/photo5.jpg",
+    src: "/images/westpoint-5.jpg",
     alt: "Local Cafes & Culture",
     caption: "Exploring local cafes and vibrant culture",
   },
   {
-    src: "/gallery/photo6.jpg",
+    src: "/images/westpoint-9.jpg",
     alt: "Ropeway Adventure",
     caption: "Thrilling Ropeway ride over the hills",
   },
